@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/Roboto-Regular.ttf");
+}
+
+header {
+    margin: auto;
+    padding-top: 17px;
+    background-color: #02160b;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: 240px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: inline-grid;
+    grid-template-columns: 70px auto;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.logo-image {
+    height: 59px;
+}
+
+.site-name {
+    width: 155px;
+}
+
+.site-name-font 
+{   margin: 0;
+    color: #F7F7F7;
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 59px;
+    text-transform: uppercase;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    column-gap: 13px;
+    list-style-type: none;
+}
+.menu-element {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.menu-link {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 46px;
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+.search {
+    padding-top: 3px;
+    padding-right: 10px;
+}
+
+.search-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.sign-in-button {
+    width: 120px;
+    background-color: transparent;
+    border: 2px solid #CD6326;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-in-button:hover {
+    background-color: #CD6326;
+}
+
+.sign-in-button:active {
+    background-color: #8F5613;
+}
