@@ -4,14 +4,16 @@
 }
 
 header {
-    margin: auto;
     padding-top: 17px;
     background-color: #02160b;
+    background-image: url("./assets/Main.png");
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 .container {
-    width: 1200px;
     margin: auto;
+    width: 1200px;
 }
 
 .header-grid {
@@ -95,4 +97,68 @@ ul {
 
 .sign-in-button:active {
     background-color: #8F5613;
+}
+
+.survival {
+    height: 700px;
+    background-color: #0d1f15;
+    background-image: url("./assets/Main.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.survival-grid {
+    padding-top: 120px;
+    display: grid;
+    grid-template-rows: 72px auto 60px;
+    grid-template-columns: 274px;
+    row-gap: 50px;
+}
+
+.survival-block-name {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 80px;
+    letter-spacing: 2px;
+    color: #CD6326;
+}
+
+.survival-text {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27.9px;
+    letter-spacing: 0.44px;
+    color: #F7F7F7;
+}
+
+.donate-button {
+    width: 160px;
+    height: 60px;
+    border: 1px solid #CD6326;
+    border-radius: 5px;
+    background-color: #CD6326;
+}
+
+.donate-button:hover {
+    background-color: #E39128;
+}
+
+.donate-button:active {
+    background-color: #8F5613;
+}
+
+.donate-button-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;    
+    text-align: center;
+    color: #F7F7F7; 
 }
