@@ -4,7 +4,7 @@
 }
 
 header {
-    padding-top: 17px;
+    padding-top: 22px;
     background-color: #02160b;
     background-image: url("./assets/Main.png");
     background-repeat: no-repeat;
@@ -68,14 +68,13 @@ ul {
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 46px;
+    line-height: 45px;
     color: #F7F7F7;
     text-decoration: none;
 }
 
 .search {
-    padding-top: 3px;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 .search-icon {
@@ -101,7 +100,7 @@ ul {
 
 .survival {
     height: 700px;
-    background-color: #0d1f15;
+    background-color: #02160b;
     background-image: url("./assets/Main.png");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -161,4 +160,93 @@ ul {
     line-height: 27px;    
     text-align: center;
     color: #F7F7F7; 
+}
+
+.latest-articles {
+    padding: 120px 0px;
+    background-color: #cccccc;
+}
+
+.latest-articles-grid {
+    display: grid;
+    grid-template-rows: 128px 360px;
+    row-gap: 120px;
+}
+
+.latest-articles-header {
+    margin: 0 auto;
+}
+
+.latest-articles-block-name {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 77px;
+    letter-spacing: 1.1px;
+    text-align: center;
+    color: #333333;
+}
+
+.latest-articles-text {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 21px;
+    letter-spacing: 1.19px;
+    text-align: center;
+    color: #666666;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+}
+
+.slider-grid {
+    display: grid;
+    grid-template-columns: 30px repeat(3, 300px) 30px;
+    column-gap: 60px;
+}
+
+.slider button {
+    border: none;
+    background-color: unset;
+}
+
+.slider-cell {
+    position: relative;
+    width: 100%;
+}
+
+.slider-cell-text {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    bottom: 45px;
+}
+
+.slider-cell-name {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #F7F7F7;
+}
+
+.slider-cell-description {
+    margin: 10px 0 0 0;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0.46px;
+    text-align: center;
+    color: #F7F7F7;
 }
