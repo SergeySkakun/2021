@@ -213,7 +213,17 @@ ul {
 
 .slider button {
     border: none;
+    border-radius: 10px;
+    padding: 0;
     background-color: unset;
+}
+
+.slider-left-button:hover {
+    box-shadow: -10px 5px 15px #02160b;
+}
+
+.slider-right-button:hover {
+    box-shadow: 10px 5px 15px #02160b;
 }
 
 .slider-cell {
