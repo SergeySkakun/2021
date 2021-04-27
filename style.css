@@ -153,7 +153,7 @@ ul {
 }
 
 .donate-button-text {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 23px;
@@ -257,6 +257,66 @@ ul {
     font-size: 17px;
     line-height: 27px;
     letter-spacing: 0.46px;
+    text-align: center;
+    color: #F7F7F7;
+}
+
+.get-notifed {
+    padding: 120px 0px 240px 0px;
+    background-color: #cccccc;
+}
+
+.get-notifed-grid {
+    display: grid;
+    grid-template-rows: auto 60px;
+    justify-items: center;
+    gap: 59px;
+}
+
+.get-notifed-header {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-align: center;
+    color: #333333;
+}
+
+#get-notifed-input {
+    padding: 0 0 0 15px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 540px;
+    height: 60px;
+    background: #CCCCCC;
+    border: 1px solid #666666;;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    color: #666666;
+}
+
+#get-notifed-submit {
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    width: 120px;
+    height: 60px;
+    background: #CD6326;
+    border: 1px solid #CD6326;
+    border-radius: 0px 5px 5px 0px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
     text-align: center;
     color: #F7F7F7;
 }
